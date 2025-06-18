@@ -5,9 +5,9 @@
 	(uuid "9b7d73c5-d37a-4dc2-9039-1b101e092ad1")
 	(paper "A4")
 	(title_block
-		(title "LoRa TM (900MHz)")
-		(date "2025-06-13")
-		(rev "v1.0")
+		(title "LoRa TM")
+		(date "2025-06-18")
+		(rev "v2.0")
 		(company "NARAE")
 		(comment 1 "INHA Univ. Areo-modelling Club")
 		(comment 2 "2025 UAV Project")
