@@ -2376,7 +2376,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at 0 16.51 0)
+				(at 0 18.542 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2392,7 +2392,7 @@
 				)
 			)
 			(property "Footprint" "E32-XXXT33S:E22-XXXT33S"
-				(at 0 2.54 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2401,7 +2401,7 @@
 				)
 			)
 			(property "Datasheet" "kicad-embed://E22-900T33S_UserManual_EN_v1.4.pdf"
-				(at 0 -10.16 0)
+				(at -0.254 -0.254 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2410,7 +2410,7 @@
 				)
 			)
 			(property "Description" "Ebyte E22-900T33S"
-				(at 0 -10.16 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2722,7 +2722,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin bidirectional line
 					(at 10.16 -10.16 180)
 					(length 2.54)
 					(name "GND"
@@ -28250,13 +28250,13 @@
 		(uuid "00fae647-9812-47b6-90d1-5ed18a86b260")
 	)
 	(junction
-		(at 175.26 107.95)
+		(at 172.72 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "02041b60-eb04-4047-a7fc-b576c731805f")
 	)
 	(junction
-		(at 200.66 97.79)
+		(at 198.12 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0af62209-cd17-467f-b2f7-bf4d833ffea9")
@@ -28316,7 +28316,7 @@
 		(uuid "2b5b0eef-480b-4570-a6a2-27452e417a54")
 	)
 	(junction
-		(at 200.66 95.25)
+		(at 198.12 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "35019acb-39ce-4733-b1ff-849413023bad")
@@ -28328,7 +28328,7 @@
 		(uuid "40bba868-74e6-49dd-a257-9ebf180b8f6b")
 	)
 	(junction
-		(at 166.37 111.76)
+		(at 163.83 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "450f530e-f48b-4bc8-8a33-1a7f1540fa3f")
@@ -28346,7 +28346,7 @@
 		(uuid "4d9a9cd3-78a2-4ebf-abec-2df529d82e83")
 	)
 	(junction
-		(at 173.99 105.41)
+		(at 171.45 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "56b8fdef-2549-4bb0-8bc3-d4e13fd23ead")
@@ -28394,7 +28394,7 @@
 		(uuid "95f48e98-425a-4f31-b54a-c48b4ef79fde")
 	)
 	(junction
-		(at 200.66 100.33)
+		(at 198.12 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a36e0f49-4215-48a3-9872-2cecff6b28e7")
@@ -28502,7 +28502,7 @@
 		(uuid "b1ab4068-9629-40e4-bd08-8f6bb6ca114a")
 	)
 	(no_connect
-		(at 199.39 113.03)
+		(at 196.85 114.3)
 		(uuid "b316d87c-c851-448d-9e66-bb24030be277")
 	)
 	(no_connect
@@ -28553,7 +28553,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 118.11) (xy 172.72 118.11)
+			(xy 168.91 119.38) (xy 170.18 119.38)
 		)
 		(stroke
 			(width 0)
@@ -28563,7 +28563,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 100.33) (xy 200.66 101.6)
+			(xy 198.12 101.6) (xy 198.12 102.87)
 		)
 		(stroke
 			(width 0)
@@ -28583,7 +28583,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 92.71) (xy 200.66 92.71)
+			(xy 196.85 93.98) (xy 198.12 93.98)
 		)
 		(stroke
 			(width 0)
@@ -28823,7 +28823,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 113.03) (xy 167.64 113.03)
+			(xy 163.83 114.3) (xy 165.1 114.3)
 		)
 		(stroke
 			(width 0)
@@ -28843,7 +28843,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 116.84) (xy 200.66 115.57)
+			(xy 204.47 118.11) (xy 204.47 116.84)
 		)
 		(stroke
 			(width 0)
@@ -28853,7 +28853,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 95.25) (xy 200.66 95.25)
+			(xy 196.85 96.52) (xy 198.12 96.52)
 		)
 		(stroke
 			(width 0)
@@ -28863,7 +28863,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 111.76) (xy 166.37 113.03)
+			(xy 163.83 113.03) (xy 163.83 114.3)
 		)
 		(stroke
 			(width 0)
@@ -28883,7 +28883,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 113.03) (xy 175.26 107.95)
+			(xy 172.72 114.3) (xy 172.72 109.22)
 		)
 		(stroke
 			(width 0)
@@ -29053,7 +29053,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 100.33) (xy 200.66 100.33)
+			(xy 196.85 101.6) (xy 198.12 101.6)
 		)
 		(stroke
 			(width 0)
@@ -29213,7 +29213,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 95.25) (xy 200.66 92.71)
+			(xy 198.12 96.52) (xy 198.12 93.98)
 		)
 		(stroke
 			(width 0)
@@ -29243,7 +29243,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 100.33) (xy 200.66 97.79)
+			(xy 198.12 101.6) (xy 198.12 99.06)
 		)
 		(stroke
 			(width 0)
@@ -29253,7 +29253,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 118.11) (xy 179.07 118.11)
+			(xy 175.26 119.38) (xy 176.53 119.38)
 		)
 		(stroke
 			(width 0)
@@ -29283,7 +29283,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 102.87) (xy 179.07 102.87)
+			(xy 161.29 104.14) (xy 176.53 104.14)
 		)
 		(stroke
 			(width 0)
@@ -29353,7 +29353,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 100.33) (xy 179.07 100.33)
+			(xy 161.29 101.6) (xy 176.53 101.6)
 		)
 		(stroke
 			(width 0)
@@ -29413,7 +29413,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 92.71) (xy 179.07 92.71)
+			(xy 175.26 93.98) (xy 176.53 93.98)
 		)
 		(stroke
 			(width 0)
@@ -29443,7 +29443,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 97.79) (xy 200.66 95.25)
+			(xy 198.12 99.06) (xy 198.12 96.52)
 		)
 		(stroke
 			(width 0)
@@ -29453,7 +29453,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 97.79) (xy 179.07 97.79)
+			(xy 161.29 99.06) (xy 176.53 99.06)
 		)
 		(stroke
 			(width 0)
@@ -29503,7 +29503,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 91.44) (xy 177.8 92.71)
+			(xy 175.26 92.71) (xy 175.26 93.98)
 		)
 		(stroke
 			(width 0)
@@ -29583,7 +29583,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 111.76) (xy 166.37 111.76)
+			(xy 162.56 113.03) (xy 163.83 113.03)
 		)
 		(stroke
 			(width 0)
@@ -29643,7 +29643,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 107.95) (xy 175.26 107.95)
+			(xy 161.29 109.22) (xy 172.72 109.22)
 		)
 		(stroke
 			(width 0)
@@ -29833,7 +29833,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 110.49) (xy 173.99 110.49)
+			(xy 170.18 111.76) (xy 171.45 111.76)
 		)
 		(stroke
 			(width 0)
@@ -29913,7 +29913,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 105.41) (xy 179.07 105.41)
+			(xy 171.45 106.68) (xy 176.53 106.68)
 		)
 		(stroke
 			(width 0)
@@ -30103,7 +30103,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 115.57) (xy 200.66 115.57)
+			(xy 196.85 116.84) (xy 198.12 116.84)
 		)
 		(stroke
 			(width 0)
@@ -30123,7 +30123,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 97.79) (xy 200.66 97.79)
+			(xy 196.85 99.06) (xy 198.12 99.06)
 		)
 		(stroke
 			(width 0)
@@ -30233,7 +30233,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 110.49) (xy 173.99 105.41)
+			(xy 171.45 111.76) (xy 171.45 106.68)
 		)
 		(stroke
 			(width 0)
@@ -30363,6 +30363,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.2 116.84) (xy 204.47 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3444fdd-b3b7-4f77-9187-01931ed46925")
+	)
+	(wire
+		(pts
 			(xy 127 53.34) (xy 135.89 53.34)
 		)
 		(stroke
@@ -30443,7 +30453,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 110.49) (xy 166.37 111.76)
+			(xy 163.83 111.76) (xy 163.83 113.03)
 		)
 		(stroke
 			(width 0)
@@ -30473,7 +30483,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 110.49) (xy 166.37 110.49)
+			(xy 165.1 111.76) (xy 163.83 111.76)
 		)
 		(stroke
 			(width 0)
@@ -30493,7 +30503,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 113.03) (xy 175.26 113.03)
+			(xy 170.18 114.3) (xy 172.72 114.3)
 		)
 		(stroke
 			(width 0)
@@ -30523,7 +30533,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 107.95) (xy 179.07 107.95)
+			(xy 172.72 109.22) (xy 176.53 109.22)
 		)
 		(stroke
 			(width 0)
@@ -30613,7 +30623,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 105.41) (xy 173.99 105.41)
+			(xy 161.29 106.68) (xy 171.45 106.68)
 		)
 		(stroke
 			(width 0)
@@ -30752,7 +30762,7 @@
 		(uuid "5beb1336-ad69-4cfc-8d90-fd13c1d2b924")
 	)
 	(label "LoRa_M1"
-		(at 163.83 105.41 0)
+		(at 161.29 106.68 0)
 		(effects
 			(font
 				(size 1 1)
@@ -30792,7 +30802,7 @@
 		(uuid "753c3985-1560-4134-b7d2-3ea88588d5a8")
 	)
 	(label "LoRa_AUX"
-		(at 163.83 97.79 0)
+		(at 161.29 99.06 0)
 		(effects
 			(font
 				(size 1 1)
@@ -30822,7 +30832,7 @@
 		(uuid "7e570d2e-4693-4c14-b606-6ec3051e3be0")
 	)
 	(label "LoRa_RX"
-		(at 163.83 100.33 0)
+		(at 161.29 101.6 0)
 		(effects
 			(font
 				(size 1 1)
@@ -30902,7 +30912,7 @@
 		(uuid "a9d474f6-f678-4306-9640-bdaa31365abe")
 	)
 	(label "LoRa_TX"
-		(at 163.83 102.87 0)
+		(at 161.29 104.14 0)
 		(effects
 			(font
 				(size 1 1)
@@ -31062,7 +31072,7 @@
 		(uuid "fc7bb88b-7742-4d87-ad44-de8379dc037d")
 	)
 	(label "LoRa_M0"
-		(at 163.83 107.95 0)
+		(at 161.29 109.22 0)
 		(effects
 			(font
 				(size 1 1)
@@ -31225,7 +31235,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 200.66 101.6 0)
+		(at 198.12 102.87 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -31235,7 +31245,7 @@
 		(fields_autoplaced yes)
 		(uuid "08aea264-693c-41fb-aed5-31176e9f825f")
 		(property "Reference" "#PWR034"
-			(at 200.66 107.95 0)
+			(at 198.12 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31244,7 +31254,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 200.66 106.68 0)
+			(at 198.12 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31253,7 +31263,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 101.6 0)
+			(at 198.12 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31262,7 +31272,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 101.6 0)
+			(at 198.12 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31271,7 +31281,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.66 101.6 0)
+			(at 198.12 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31300,7 +31310,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "09fd24bc-36a0-46a4-be6c-2dfac79799df")
-		(property "Reference" "C7"
+		(property "Reference" "C9"
 			(at 137.922 55.88 0)
 			(effects
 				(font
@@ -31309,7 +31319,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1ouF"
+		(property "Value" "10uF"
 			(at 137.922 58.42 0)
 			(effects
 				(font
@@ -31478,7 +31488,7 @@
 		(instances
 			(project "LoRa_TM"
 				(path "/9b7d73c5-d37a-4dc2-9039-1b101e092ad1"
-					(reference "C7")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -31954,7 +31964,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1d5354d3-a405-4075-9c72-950e7653abc1")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR011"
 			(at 105.41 71.12 0)
 			(effects
 				(font
@@ -32004,7 +32014,199 @@
 		(instances
 			(project "LoRa_TM"
 				(path "/9b7d73c5-d37a-4dc2-9039-1b101e092ad1"
-					(reference "#PWR013")
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 200.66 116.84 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ebcbf6b-9949-4a5f-b4bd-1738a4f7b914")
+		(property "Reference" "R13"
+			(at 200.66 119.38 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 200.66 121.412 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 200.66 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 200.66 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 200.66 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Availability" ""
+			(at 200.66 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 200.66 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 200.66 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" ""
+			(at 200.66 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 200.66 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" ""
+			(at 200.66 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 200.66 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" ""
+			(at 200.66 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 200.66 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 200.66 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C25079"
+			(at 200.66 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" ""
+			(at 200.66 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 200.66 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 200.66 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f1c714ad-4505-448b-b2fc-2a9fdec5cd35")
+		)
+		(pin "2"
+			(uuid "28681a81-3309-4806-a39d-5f24b69c7763")
+		)
+		(instances
+			(project "LoRa_TM"
+				(path "/9b7d73c5-d37a-4dc2-9039-1b101e092ad1"
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -32213,7 +32415,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2709375f-b8e4-4718-823a-760bf899695b")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR01"
 			(at 41.91 124.46 0)
 			(effects
 				(font
@@ -32264,7 +32466,7 @@
 		(instances
 			(project "LoRa_TM"
 				(path "/9b7d73c5-d37a-4dc2-9039-1b101e092ad1"
-					(reference "#PWR02")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -32930,7 +33132,7 @@
 	(symbol
 		(lib_name "+5V_1")
 		(lib_id "power:+5V")
-		(at 177.8 91.44 0)
+		(at 175.26 92.71 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -32939,7 +33141,7 @@
 		(dnp no)
 		(uuid "37bc89fa-f481-45b7-9a10-c0bf269a0766")
 		(property "Reference" "#PWR031"
-			(at 177.8 95.25 0)
+			(at 175.26 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32948,7 +33150,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 177.8 87.63 0)
+			(at 175.26 88.9 0)
 			(effects
 				(font
 					(size 1 1)
@@ -32956,7 +33158,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 177.8 91.44 0)
+			(at 175.26 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32965,7 +33167,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 91.44 0)
+			(at 175.26 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32974,7 +33176,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 177.8 91.44 0)
+			(at 175.26 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33528,7 +33730,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 171.45 118.11 270)
+		(at 168.91 119.38 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -33538,7 +33740,7 @@
 		(fields_autoplaced yes)
 		(uuid "4778ad3c-afb2-461a-876a-aea7ae8d37a4")
 		(property "Reference" "#PWR030"
-			(at 165.1 118.11 0)
+			(at 162.56 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33547,7 +33749,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 166.37 118.11 0)
+			(at 163.83 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33556,7 +33758,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 118.11 0)
+			(at 168.91 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33565,7 +33767,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 118.11 0)
+			(at 168.91 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33574,7 +33776,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 171.45 118.11 0)
+			(at 168.91 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33596,32 +33798,31 @@
 	)
 	(symbol
 		(lib_id "E32-XXXT33S:E22-900T33S")
-		(at 189.23 105.41 0)
+		(at 186.69 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4b6baf1f-d026-4118-96b8-8f76930a117f")
 		(property "Reference" "U4"
-			(at 189.23 87.63 0)
+			(at 186.69 87.63 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 			)
 		)
 		(property "Value" "E22-900T33S"
-			(at 189.23 90.17 0)
+			(at 186.69 90.17 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 			)
 		)
 		(property "Footprint" "E32-XXXT33S:E22-XXXT33S"
-			(at 189.23 105.41 0)
+			(at 186.69 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33630,7 +33831,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://E22-900T33S_UserManual_EN_v1.4.pdf"
-			(at 189.23 118.11 0)
+			(at 186.69 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33639,7 +33840,7 @@
 			)
 		)
 		(property "Description" "Ebyte E22-900T33S"
-			(at 189.23 118.11 0)
+			(at 186.69 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33978,7 +34179,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "530792ab-5d56-475b-a5eb-e6dac448c8b2")
-		(property "Reference" "C8"
+		(property "Reference" "C7"
 			(at 135.89 21.336 90)
 			(effects
 				(font
@@ -34154,7 +34355,7 @@
 		(instances
 			(project "LoRa_TM"
 				(path "/9b7d73c5-d37a-4dc2-9039-1b101e092ad1"
-					(reference "C8")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -35554,7 +35755,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 200.66 116.84 0)
+		(at 204.47 118.11 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -35564,7 +35765,7 @@
 		(fields_autoplaced yes)
 		(uuid "6d8c7ab7-a271-4327-bce7-e300d1a07388")
 		(property "Reference" "#PWR035"
-			(at 200.66 123.19 0)
+			(at 204.47 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35573,7 +35774,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 200.66 121.92 0)
+			(at 204.47 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35582,7 +35783,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 116.84 0)
+			(at 204.47 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35591,7 +35792,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 116.84 0)
+			(at 204.47 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35600,7 +35801,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.66 116.84 0)
+			(at 204.47 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35924,7 +36125,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78404132-10ca-4e9f-8f4c-c633d5a37a93")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR03"
 			(at 43.18 199.39 0)
 			(effects
 				(font
@@ -35975,7 +36176,7 @@
 		(instances
 			(project "LoRa_TM"
 				(path "/9b7d73c5-d37a-4dc2-9039-1b101e092ad1"
-					(reference "#PWR01")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -36180,7 +36381,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 170.18 113.03 270)
+		(at 167.64 114.3 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -36189,7 +36390,7 @@
 		(dnp no)
 		(uuid "7c577a32-977e-44b7-8344-d001ac8f7150")
 		(property "Reference" "R11"
-			(at 176.784 112.776 90)
+			(at 174.244 114.046 90)
 			(effects
 				(font
 					(size 1 1)
@@ -36197,7 +36398,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 179.832 112.776 90)
+			(at 177.292 114.046 90)
 			(effects
 				(font
 					(size 1 1)
@@ -36205,7 +36406,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 170.18 113.03 0)
+			(at 167.64 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36214,7 +36415,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 113.03 0)
+			(at 167.64 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36223,7 +36424,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 170.18 113.03 0)
+			(at 167.64 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36232,7 +36433,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 170.18 113.03 0)
+			(at 167.64 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36241,7 +36442,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 170.18 113.03 0)
+			(at 167.64 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36250,7 +36451,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 170.18 113.03 0)
+			(at 167.64 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36259,7 +36460,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 170.18 113.03 0)
+			(at 167.64 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36268,7 +36469,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 170.18 113.03 0)
+			(at 167.64 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36277,7 +36478,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 170.18 113.03 0)
+			(at 167.64 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36286,7 +36487,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 170.18 113.03 0)
+			(at 167.64 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36295,7 +36496,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 170.18 113.03 0)
+			(at 167.64 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36304,7 +36505,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 170.18 113.03 0)
+			(at 167.64 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36313,7 +36514,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 170.18 113.03 0)
+			(at 167.64 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36322,7 +36523,7 @@
 			)
 		)
 		(property "LCSC" " C25079"
-			(at 170.18 113.03 0)
+			(at 167.64 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36331,7 +36532,7 @@
 			)
 		)
 		(property "JLC" ""
-			(at 170.18 113.03 0)
+			(at 167.64 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36340,7 +36541,7 @@
 			)
 		)
 		(property "Sim.Params" ""
-			(at 170.18 113.03 0)
+			(at 167.64 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36348,7 +36549,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 170.18 113.03 0)
+			(at 167.64 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36447,7 +36648,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "90777f1d-bab3-438f-9758-976fd593f369")
-		(property "Reference" "R13"
+		(property "Reference" "R14"
 			(at 246.634 103.632 0)
 			(effects
 				(font
@@ -36625,7 +36826,7 @@
 		(instances
 			(project "LoRa_TM"
 				(path "/9b7d73c5-d37a-4dc2-9039-1b101e092ad1"
-					(reference "R13")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -37017,7 +37218,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_Coaxial_Small")
-		(at 175.26 118.11 180)
+		(at 172.72 119.38 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -37025,7 +37226,7 @@
 		(dnp no)
 		(uuid "990b6a5d-0f79-4dc9-ae99-265c9b8feac8")
 		(property "Reference" "J2"
-			(at 175.26 120.65 0)
+			(at 172.72 121.92 0)
 			(effects
 				(font
 					(size 1 1)
@@ -37033,7 +37234,7 @@
 			)
 		)
 		(property "Value" "SMA"
-			(at 175.26 122.428 0)
+			(at 172.72 123.698 0)
 			(effects
 				(font
 					(size 1 1)
@@ -37041,7 +37242,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
-			(at 175.26 118.11 0)
+			(at 172.72 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37050,7 +37251,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.26 118.11 0)
+			(at 172.72 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37059,7 +37260,7 @@
 			)
 		)
 		(property "Description" "small coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 175.26 118.11 0)
+			(at 172.72 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38070,7 +38271,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 165.1 111.76 270)
+		(at 162.56 113.03 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -38080,7 +38281,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd5d6b0b-5495-45c1-b01f-4473fcae7f69")
 		(property "Reference" "#PWR028"
-			(at 158.75 111.76 0)
+			(at 156.21 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38089,7 +38290,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 160.02 111.76 0)
+			(at 157.48 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38098,7 +38299,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 111.76 0)
+			(at 162.56 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38107,7 +38308,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 111.76 0)
+			(at 162.56 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38116,7 +38317,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 111.76 0)
+			(at 162.56 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38865,7 +39066,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dc22cf96-739a-4f4b-b1b0-80c240f7d804")
-		(property "Reference" "R4"
+		(property "Reference" "R3"
 			(at 115.57 45.212 90)
 			(effects
 				(font
@@ -39041,7 +39242,7 @@
 		(instances
 			(project "LoRa_TM"
 				(path "/9b7d73c5-d37a-4dc2-9039-1b101e092ad1"
-					(reference "R4")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -39512,7 +39713,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df828ca0-d9f5-456b-a2ae-9ca2d3370a55")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR012"
 			(at 105.41 87.63 0)
 			(effects
 				(font
@@ -39563,7 +39764,7 @@
 		(instances
 			(project "LoRa_TM"
 				(path "/9b7d73c5-d37a-4dc2-9039-1b101e092ad1"
-					(reference "#PWR014")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -39771,7 +39972,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e556acf9-6dfc-4e7d-9bbd-60cce2928cba")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR014"
 			(at 105.41 185.42 0)
 			(effects
 				(font
@@ -39822,7 +40023,7 @@
 		(instances
 			(project "LoRa_TM"
 				(path "/9b7d73c5-d37a-4dc2-9039-1b101e092ad1"
-					(reference "#PWR012")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -40069,7 +40270,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eebdd2c6-fbd4-4114-a54f-b48b0e81f661")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR013"
 			(at 105.41 160.02 0)
 			(effects
 				(font
@@ -40119,7 +40320,7 @@
 		(instances
 			(project "LoRa_TM"
 				(path "/9b7d73c5-d37a-4dc2-9039-1b101e092ad1"
-					(reference "#PWR011")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -40127,7 +40328,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 170.18 110.49 270)
+		(at 167.64 111.76 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -40136,7 +40337,7 @@
 		(dnp no)
 		(uuid "f28e6ec3-370e-4639-8220-4e0c2492bbd1")
 		(property "Reference" "R10"
-			(at 176.784 110.744 90)
+			(at 174.244 112.014 90)
 			(effects
 				(font
 					(size 1 1)
@@ -40144,7 +40345,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 179.832 110.744 90)
+			(at 177.292 112.014 90)
 			(effects
 				(font
 					(size 1 1)
@@ -40152,7 +40353,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 170.18 110.49 0)
+			(at 167.64 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40161,7 +40362,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 110.49 0)
+			(at 167.64 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40170,7 +40371,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 170.18 110.49 0)
+			(at 167.64 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40179,7 +40380,7 @@
 			)
 		)
 		(property "Availability" ""
-			(at 170.18 110.49 0)
+			(at 167.64 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40188,7 +40389,7 @@
 			)
 		)
 		(property "Check_prices" ""
-			(at 170.18 110.49 0)
+			(at 167.64 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40197,7 +40398,7 @@
 			)
 		)
 		(property "Description_1" ""
-			(at 170.18 110.49 0)
+			(at 167.64 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40206,7 +40407,7 @@
 			)
 		)
 		(property "MF" ""
-			(at 170.18 110.49 0)
+			(at 167.64 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40215,7 +40416,7 @@
 			)
 		)
 		(property "MP" ""
-			(at 170.18 110.49 0)
+			(at 167.64 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40224,7 +40425,7 @@
 			)
 		)
 		(property "Package" ""
-			(at 170.18 110.49 0)
+			(at 167.64 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40233,7 +40434,7 @@
 			)
 		)
 		(property "Price" ""
-			(at 170.18 110.49 0)
+			(at 167.64 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40242,7 +40443,7 @@
 			)
 		)
 		(property "SnapEDA_Link" ""
-			(at 170.18 110.49 0)
+			(at 167.64 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40251,7 +40452,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 170.18 110.49 0)
+			(at 167.64 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40260,7 +40461,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 170.18 110.49 0)
+			(at 167.64 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40269,7 +40470,7 @@
 			)
 		)
 		(property "LCSC" " C25079"
-			(at 170.18 110.49 0)
+			(at 167.64 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40278,7 +40479,7 @@
 			)
 		)
 		(property "JLC" ""
-			(at 170.18 110.49 0)
+			(at 167.64 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40287,7 +40488,7 @@
 			)
 		)
 		(property "Sim.Params" ""
-			(at 170.18 110.49 0)
+			(at 167.64 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40295,7 +40496,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 170.18 110.49 0)
+			(at 167.64 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40326,7 +40527,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f2fe8a85-2ebc-4058-9cbc-b07f30386b2e")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR02"
 			(at 41.91 129.54 0)
 			(effects
 				(font
@@ -40376,7 +40577,7 @@
 		(instances
 			(project "LoRa_TM"
 				(path "/9b7d73c5-d37a-4dc2-9039-1b101e092ad1"
-					(reference "#PWR03")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -40651,7 +40852,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f6966c0d-ef93-499e-889c-d133ed90de6c")
-		(property "Reference" "C9"
+		(property "Reference" "C8"
 			(at 135.89 34.036 90)
 			(effects
 				(font
@@ -40827,7 +41028,7 @@
 		(instances
 			(project "LoRa_TM"
 				(path "/9b7d73c5-d37a-4dc2-9039-1b101e092ad1"
-					(reference "C9")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -40911,7 +41112,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc83a403-5d0a-477d-8b06-7c984ee3638b")
-		(property "Reference" "R3"
+		(property "Reference" "R4"
 			(at 118.11 158.75 0)
 			(effects
 				(font
@@ -41089,7 +41290,7 @@
 		(instances
 			(project "LoRa_TM"
 				(path "/9b7d73c5-d37a-4dc2-9039-1b101e092ad1"
-					(reference "R3")
+					(reference "R4")
 					(unit 1)
 				)
 			)

@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 16.51 0)
+			(at 0 18.542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23,7 +23,7 @@
 			)
 		)
 		(property "Footprint" "E32-XXXT33S:E22-XXXT33S"
-			(at 0 2.54 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32,7 +32,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://E22-900T33S_UserManual_EN_v1.4.pdf"
-			(at 0 -10.16 0)
+			(at -0.254 -0.254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41,7 +41,7 @@
 			)
 		)
 		(property "Description" "Ebyte E22-900T33S"
-			(at 0 -10.16 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -353,7 +353,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin bidirectional line
 				(at 10.16 -10.16 180)
 				(length 2.54)
 				(name "GND"
@@ -22789,7 +22789,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 16.51 0)
+			(at 0 19.304 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22797,7 +22797,7 @@
 			)
 		)
 		(property "Value" "E32-433T33S"
-			(at 0 13.97 0)
+			(at 0 16.764 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22814,7 +22814,7 @@
 			)
 		)
 		(property "Datasheet" "kicad-embed://E22-900T33S_UserManual_EN_v1.4.pdf"
-			(at 0 -12.7 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22823,7 +22823,7 @@
 			)
 		)
 		(property "Description" "Ebyte E22-900T33S"
-			(at 0 -12.7 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22833,8 +22833,8 @@
 		)
 		(symbol "E32-433T33S_1_1"
 			(rectangle
-				(start -7.62 12.7)
-				(end 7.62 -12.7)
+				(start -7.62 15.24)
+				(end 7.62 -15.24)
 				(stroke
 					(width 0)
 					(type solid)
@@ -22844,7 +22844,7 @@
 				)
 			)
 			(pin power_in line
-				(at -10.16 10.16 0)
+				(at -10.16 12.7 0)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -22862,7 +22862,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -10.16 5.08 0)
+				(at -10.16 7.62 0)
 				(length 2.54)
 				(name "AUX"
 					(effects
@@ -22880,7 +22880,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -10.16 2.54 0)
+				(at -10.16 5.08 0)
 				(length 2.54)
 				(name "TXD"
 					(effects
@@ -22898,7 +22898,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -10.16 0 0)
+				(at -10.16 2.54 0)
 				(length 2.54)
 				(name "RXD"
 					(effects
@@ -22916,7 +22916,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -10.16 -2.54 0)
+				(at -10.16 0 0)
 				(length 2.54)
 				(name "M1"
 					(effects
@@ -22934,7 +22934,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -10.16 -5.08 0)
+				(at -10.16 -2.54 0)
 				(length 2.54)
 				(name "M0"
 					(effects
@@ -22952,7 +22952,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -10.16 -10.16 0)
+				(at -10.16 -12.7 0)
 				(length 2.54)
 				(name "ANT"
 					(effects
@@ -22970,7 +22970,7 @@
 				)
 			)
 			(pin power_in line
-				(at 10.16 10.16 180)
+				(at 10.16 12.7 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -22988,7 +22988,7 @@
 				)
 			)
 			(pin power_in line
-				(at 10.16 7.62 180)
+				(at 10.16 10.16 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -23006,7 +23006,7 @@
 				)
 			)
 			(pin power_in line
-				(at 10.16 5.08 180)
+				(at 10.16 7.62 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -23024,7 +23024,7 @@
 				)
 			)
 			(pin power_in line
-				(at 10.16 2.54 180)
+				(at 10.16 5.08 180)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -23042,7 +23042,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 10.16 -2.54 180)
+				(at 10.16 2.54 180)
 				(length 2.54)
 				(hide yes)
 				(name "PB0"
@@ -23061,7 +23061,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 10.16 -2.54 180)
+				(at 10.16 0 180)
 				(length 2.54)
 				(hide yes)
 				(name "PB1"
@@ -23099,7 +23099,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 10.16 -2.54 180)
+				(at 10.16 -5.08 180)
 				(length 2.54)
 				(hide yes)
 				(name "+3.3V"
@@ -23118,7 +23118,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 10.16 -2.54 180)
+				(at 10.16 -7.62 180)
 				(length 2.54)
 				(hide yes)
 				(name "SWIM"
@@ -23129,25 +23129,6 @@
 					)
 				)
 				(number "22"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 10.16 -5.08 180)
-				(length 2.54)
-				(hide yes)
-				(name "RESET"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "24"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -23167,6 +23148,25 @@
 					)
 				)
 				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at 10.16 -12.7 180)
+				(length 2.54)
+				(hide yes)
+				(name "RESET"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
 					(effects
 						(font
 							(size 1.27 1.27)
