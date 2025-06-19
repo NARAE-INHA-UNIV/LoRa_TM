@@ -513,7 +513,7 @@
       "plot": "LoRa_TM/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../LoRa_TM.step",
       "svg": "",
       "vrml": ""
     },
