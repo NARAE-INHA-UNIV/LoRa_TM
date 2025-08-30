@@ -1,6 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "TPS62840")(type "KiCad")(uri "${KIPRJMOD}/lib/TPS62840/TPS62840.kicad_sym")(options "")(descr ""))
-  (lib (name "E32-XXXT33S")(type "KiCad")(uri "${KIPRJMOD}/lib/E32-XXXT33S/E32-XXXT33S.kicad_sym")(options "")(descr ""))
-  (lib (name "STM32F042F4P6TR")(type "KiCad")(uri "${KIPRJMOD}/lib/STM32F042F4P6TR/STM32F042F4P6TR.kicad_sym")(options "")(descr ""))
-)
